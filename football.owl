@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#"
+     xml:base="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Attack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Attack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Players"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Barclays_Premier_League -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Barclays_Premier_League">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Leagues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Center_half_back -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Center_half_back">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Attack"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Centre_forward -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Centre_forward">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Defend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Centre_half_forward -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Centre_half_forward">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Defend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Champion_Ships -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Champion_Ships">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Match"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Coach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Coach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Defend -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Defend">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Players"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Euro_Cup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Euro_Cup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Champion_Ships"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#FIFA_World_Cup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#FIFA_World_Cup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Champion_Ships"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Football -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Football"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Full_back -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Full_back">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Attack"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Golden_ball -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Golden_ball">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#awards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Golden_glove -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Golden_glove">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#awards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Golden_show -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Golden_show">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#awards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Head_Coach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Head_Coach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Coach"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Keeper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Keeper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Attack"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Keeper2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Keeper2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Defend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Laliga_Spanish_League -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Laliga_Spanish_League">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Leagues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Leagues -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Leagues">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Match"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Left_corner_back -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Left_corner_back">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Attack"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Left_corner_forward -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Left_corner_forward">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Defend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Left_half_back -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Left_half_back">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Attack"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Left_half_forward -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Left_half_forward">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Defend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Match -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Match">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Football"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Match_Officials -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Match_Officials">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Midfielder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Midfielder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Attack"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Midfielder2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Midfielder2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Defend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Football"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Players -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Players">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Refrees -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Refrees">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Match_Officials"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Right_corner_back -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Right_corner_back">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Attack"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Right_corner_forward -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Right_corner_forward">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Defend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Right_half_back -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Right_half_back">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Attack"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Right_half_forward -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Right_half_forward">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Defend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Subsitutes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Subsitutes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Players"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Team -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Team">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#UEFA_Europa_League -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#UEFA_Europa_League">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Leagues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#UEFA_league -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#UEFA_league">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Leagues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#awards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#awards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rabi-pc/ontologies/2018/3/FootballOntology#Football"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
